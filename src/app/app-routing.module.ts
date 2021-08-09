@@ -6,8 +6,10 @@ import { AboutComponent } from './components/about/about.component';
 import { FragmentGuard } from './guards/fragment.guard';
 import { InfrastructureComponent } from './components/infrastructure/infrastructure.component';
 import { ContactComponent } from './components/contact/contact.component';
-import { ServicesComponent } from './components/services/services.component';
+// import { ServicesComponent } from './components/services/services.component';
 import { WorkComponent } from './components/work/work.component';
+import { ServicesComponent } from './components/services/services.component';
+// import { ServicesComponent } from './components/services/services2.component';
 
 const routes: Routes = [
   {

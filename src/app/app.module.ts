@@ -37,6 +37,8 @@ import { InfrastructureComponent } from './components/infrastructure/infrastruct
 import { WorkComponent } from './components/work/work.component';
 import { IconComponent } from './components/shared/icon/icon.component';
 import { ServicesComponent } from './components/services/services.component';
+import { StackComponent } from './components/shared/stack/stack.component';
+import { HomeStackComponent } from './components/home/home-stack/home-stack.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -70,7 +72,9 @@ export function createTranslateLoader(http: HttpClient) {
     InvestmentsComponent,
     InfrastructureComponent,
     WorkComponent,
-    IconComponent
+    IconComponent,
+    StackComponent,
+    HomeStackComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

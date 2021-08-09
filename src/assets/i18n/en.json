@@ -93,6 +93,41 @@
             "definition": "Blockchain technology is revolutionizing the business world and helping companies in their transformation. Customized blockchain solutions are paving the way for more innovation in businesses. Blockchain integration offers several benefits for your business that make it more efficient, secure, and successful.",
             "benefits": "However, most businesses lack the expertise to successfully integrate and use blockchain technology.",
             "description": "Adopting new technology means new knowledge and training to make the best use of it. Blockbrainers is a blockchain consulting firm that provides you the necessary training to help you maximize the benefits of this revolutionary technology. The Blockbrainer team consists of industry-leading blockchain architects and developers eager to share their knowledge and expertise. Our blockchain training service includes a program that gives you hands-on training and support to help your staff smoothly transition to blockchain technology. Our blockchain training service can ensure that your staff gets all the functional and technical training it needs to successfully use blockchain and drive your company’s success."
+        },
+        "tokenizationERC20": {
+            "name": "Tokenization ERC20/BEP20 standards",
+            "icon": "./assets/images/services/digital-assets.svg",
+            "definition": "Blockchain technology is revolutionizing the business world and helping companies in their transformation. Customized blockchain solutions are paving the way for more innovation in businesses. Blockchain integration offers several benefits for your business that make it more efficient, secure, and successful.",
+            "benefits": "However, most businesses lack the expertise to successfully integrate and use blockchain technology.",
+            "description": "Adopting new technology means new knowledge and training to make the best use of it. Blockbrainers is a blockchain consulting firm that provides you the necessary training to help you maximize the benefits of this revolutionary technology. The Blockbrainer team consists of industry-leading blockchain architects and developers eager to share their knowledge and expertise. Our blockchain training service includes a program that gives you hands-on training and support to help your staff smoothly transition to blockchain technology. Our blockchain training service can ensure that your staff gets all the functional and technical training it needs to successfully use blockchain and drive your company’s success."
+        },
+        "NFT": {
+            "name": "NFTs ERC721 standards/marketplace",
+            "icon": "./assets/images/services/dapp.svg",
+            "definition": "Blockchain technology is revolutionizing the business world and helping companies in their transformation. Customized blockchain solutions are paving the way for more innovation in businesses. Blockchain integration offers several benefits for your business that make it more efficient, secure, and successful.",
+            "benefits": "However, most businesses lack the expertise to successfully integrate and use blockchain technology.",
+            "description": "Adopting new technology means new knowledge and training to make the best use of it. Blockbrainers is a blockchain consulting firm that provides you the necessary training to help you maximize the benefits of this revolutionary technology. The Blockbrainer team consists of industry-leading blockchain architects and developers eager to share their knowledge and expertise. Our blockchain training service includes a program that gives you hands-on training and support to help your staff smoothly transition to blockchain technology. Our blockchain training service can ensure that your staff gets all the functional and technical training it needs to successfully use blockchain and drive your company’s success."
+        },
+        "staking": {
+            "name": "Defi Staking",
+            "icon": "./assets/images/services/smart-contract-dev.svg",
+            "definition": "Blockchain technology is revolutionizing the business world and helping companies in their transformation. Customized blockchain solutions are paving the way for more innovation in businesses. Blockchain integration offers several benefits for your business that make it more efficient, secure, and successful.",
+            "benefits": "However, most businesses lack the expertise to successfully integrate and use blockchain technology.",
+            "description": "Adopting new technology means new knowledge and training to make the best use of it. Blockbrainers is a blockchain consulting firm that provides you the necessary training to help you maximize the benefits of this revolutionary technology. The Blockbrainer team consists of industry-leading blockchain architects and developers eager to share their knowledge and expertise. Our blockchain training service includes a program that gives you hands-on training and support to help your staff smoothly transition to blockchain technology. Our blockchain training service can ensure that your staff gets all the functional and technical training it needs to successfully use blockchain and drive your company’s success."
+        },
+        "governance": {
+            "name": "Governance/DAO",
+            "icon": "./assets/images/services/integration.svg",
+            "definition": "Blockchain technology is revolutionizing the business world and helping companies in their transformation. Customized blockchain solutions are paving the way for more innovation in businesses. Blockchain integration offers several benefits for your business that make it more efficient, secure, and successful.",
+            "benefits": "However, most businesses lack the expertise to successfully integrate and use blockchain technology.",
+            "description": "Adopting new technology means new knowledge and training to make the best use of it. Blockbrainers is a blockchain consulting firm that provides you the necessary training to help you maximize the benefits of this revolutionary technology. The Blockbrainer team consists of industry-leading blockchain architects and developers eager to share their knowledge and expertise. Our blockchain training service includes a program that gives you hands-on training and support to help your staff smoothly transition to blockchain technology. Our blockchain training service can ensure that your staff gets all the functional and technical training it needs to successfully use blockchain and drive your company’s success."
+        },
+        "audit": {
+            "name": "Smart contract security audit",
+            "icon": "./assets/images/services/smart-contract-audit.svg",
+            "definition": "Blockchain technology is revolutionizing the business world and helping companies in their transformation. Customized blockchain solutions are paving the way for more innovation in businesses. Blockchain integration offers several benefits for your business that make it more efficient, secure, and successful.",
+            "benefits": "However, most businesses lack the expertise to successfully integrate and use blockchain technology.",
+            "description": "Adopting new technology means new knowledge and training to make the best use of it. Blockbrainers is a blockchain consulting firm that provides you the necessary training to help you maximize the benefits of this revolutionary technology. The Blockbrainer team consists of industry-leading blockchain architects and developers eager to share their knowledge and expertise. Our blockchain training service includes a program that gives you hands-on training and support to help your staff smoothly transition to blockchain technology. Our blockchain training service can ensure that your staff gets all the functional and technical training it needs to successfully use blockchain and drive your company’s success."
         }
     },
     "processSteps": {
@@ -102,7 +137,7 @@
         },
         "analysis": {
             "headline": "Analysis",
-            "text": "Blockbrainer's business analysts work hand to hand with you to define your business needs. Our architects set the technical requirements of the solution."
+            "text": "We will set the technical requirements of the solution."
         },
         "planning": {
             "headline": "Planning",
@@ -110,15 +145,41 @@
         },
         "MVP": {
             "headline": "MVP",
-            "text": "We build a Minimum Valuable Product, a simple implementation of the main features to test it with real users, collecting feedback, and get ready for the full implementation."
+            "text": "We build a Minimum Valuable Product, a simple implementation of the main features to test it on testnet, collecting feedback, and get ready for the full implementation."
         },
         "fullImplementation": {
             "headline": "Full Implementation",
-            "text": "After having tested and approved MVP, we're ready to build the entire project."
+            "text": "After having tested and approved MVP, we're ready to build the entire project and deploy it on mainnet."
         },
         "maintenance": {
             "headline": "Maintenance",
             "text": "After successfully launch your project, we'll still support you, bringing improvement and fixing if needed."
+        }
+    },
+    "work": {
+        "komet": {
+            "name": "Komet Finance",
+            "headline": "New Decentralized Hedge Fund.",
+            "description": "Komet Finance is organized around a service that allows anyone to come together and become more powerful. As a decentralized Hedge Fund, the overall goal is to deliver dividends to stakeholders.",
+            "platforms": ["Ethereum"],
+            "image": "./assets/images/work/komet-logo.svg",
+            "website": "https://komet.capital/"
+        },
+        "custos": {
+            "name": "Custos",
+            "headline": "Cross-chain NFT solutions.",
+            "description": "A Cross-chain protocol exploiting all the potential of NFTs to build advanced decentralized financial products with the key focus being security.",
+            "platforms": ["Ethereum"],
+            "image": "./assets/images/work/custos-logo.svg",
+            "website": "https://custos.finance/"
+        },
+        "toddlerinu": {
+            "name": "Toddler Inu",
+            "headline": "The most advanced lottery protocol. Millions of dollars gifts.",
+            "description": "An innovative DeFi token on Binance Smart Chain. We combined an ingenious tokenomics designed to maximize profits, with a unique lottery system by tier for all holders with all our products -almost- instantly deliverable.",
+            "platforms": ["Binance Smart Chain"],
+            "image": "./assets/images/work/toddlerinu-logo.svg",
+            "website": "https://toddlerinu.wtf/"
         }
     }
 }

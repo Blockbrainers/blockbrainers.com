@@ -35,8 +35,8 @@ export class NavbarComponent {
   @HostListener('window:scroll', ['$event'])
   handOnScroll(event) {
     if (this.navbarElementView) {
-      const breakPoint = this.navbarElementView.nativeElement.offsetHeight;
-      this.hasScrolled = document.body.scrollTop > breakPoint || document.documentElement.scrollTop > breakPoint;
+      // const breakPoint = this.navbarElementView.nativeElement.offsetHeight;
+      this.hasScrolled = document.body.scrollTop > 0 || document.documentElement.scrollTop > 0;
     }
   }
 

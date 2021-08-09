@@ -3,6 +3,7 @@
 .flex-container {
     display: flex;
     justify-content: space-between;
+    height: calc(100vh - #{$navbar-height});
     align-items: center;
     flex-wrap: wrap;
     img {
@@ -11,13 +12,13 @@
 }
 
 .content {
-    border-left: 1px solid;
-    padding: 10px 0 10px 40px;
+    // border-left: 1px solid;
+    // padding: 10px 0 10px 40px;
     max-width: 50%;
-    border-color: $blue-dark;
+    // border-color: $blue-dark;
     h1 {
         margin-bottom: 35px;
-        font-size: 2.2rem;
+        font-size: 2.75rem;
         font-weight: 700;
     }
 }

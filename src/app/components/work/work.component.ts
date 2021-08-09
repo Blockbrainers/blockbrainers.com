@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./work.component.scss']
 })
 export class WorkComponent implements OnInit {
-
+  public projects = ['komet', 'custos', 'toddlerinu'];
+  
   constructor() { }
 
   ngOnInit(): void {

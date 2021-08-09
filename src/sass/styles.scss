@@ -9,22 +9,22 @@
 @import '../sass/components/separator';
 @import '../sass/components/card';
 
-html {
-    overflow: scroll;
-    overflow-x: hidden;
-}
+// html {
+//     overflow: scroll;
+//     overflow-x: hidden;
+// }
 
-::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
-}
+// ::-webkit-scrollbar {
+//     width: 0px;  /* Remove scrollbar space */
+//     background: transparent;  /* Optional: just make scrollbar invisible */
+// }
 
 body {
     font-family: 'Raleway', 'Helvetica', sans-serif;
     font-weight: 300;
     letter-spacing: 1.5px;
     margin: 0px;
-    overflow-x: hidden;
+    // overflow-x: hidden;
     color: $blue-dark;
     a {
         color: $blue;
@@ -65,6 +65,10 @@ p, a, h1, h2, h3, h4 {
     border-left: 1px solid $blue-dark;
     font-size: 2rem;
     // text-transform: uppercase;
+}
+
+.text-gold {
+    color: $gold;
 }
 
 .title-box {

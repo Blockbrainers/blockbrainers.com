@@ -1,6 +1,20 @@
 <div class="page-container">
-    <h1 class="title-page">Work</h1>
-    <div class="section">
-      <p>Adding some projects...</p>
+  <h1 class="title-page">WORK</h1>
+
+  <div *ngFor="let project of projects; let i = index" [ngClass]="{'section': true, 'full-width-section': true, 'flex-card': true, 'flex-card-inverse':i % 2 !== 0 }">
+    <div class="flex-card-item flex-card-img">
+      <img [src]="'work.' + project + '.image' | translate" [attr.alt]="project + ' icon'">
     </div>
+    <div class="flex-card-item flex-card-content">
+        <h3>{{ 'work.' + project + '.name' | translate }}</h3>
+        <strong>{{ 'work.' + project + '.headline' | translate }}</strong>
+        <p><strong>Platforms: </strong>{{ 'work.' + project + '.platforms' | translate }}</p>
+          <p class="flex-card-content-text">{{ 'work.' + project + '.description' | translate }}</p>
+        <a [href]="'work.' + project + '.website' | translate" 
+            target="_blank">
+            Website
+        </a>
+    </div>
+  </div>
+  
 </div>

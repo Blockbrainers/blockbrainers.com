@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="146px" height="49px" viewBox="0 0 146 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>custos_logo</title>
+    <g id="Slide-Decks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing" transform="translate(-189.000000, -41.000000)">
+            <g id="Group-4" transform="translate(190.500000, 43.000000)">
+                <g id="custos_logo" transform="translate(0.500000, 0.000000)">
+                    <g id="Group-12" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+                        <path d="M11.2941176,20.8 L11.2941176,11.7017699 C11.2941176,9.10504956 13.4010084,7 16,7 L16,7 C18.5989916,7 20.7058824,9.10504956 20.7058824,11.7017699 L20.7058824,29.8982301 C20.7058824,32.4949504 18.5989916,34.6 16,34.6 L16,34.6 L16,34.6 C13.4010084,34.6 11.2941176,32.4949504 11.2941176,29.8982301 L11.2941176,27.7" class="squiggle" stroke="#B214BB"></path>
+                        <path d="M17.8837647,22 C17.8837647,16.477193 13.4325882,12 7.94188235,12 C2.45117647,12 -2,16.477193 -2,22 C-2,27.522807 2.45117647,32 7.94188235,32 L34,32" class="squiggle" stroke="#E3D700" transform="translate(16.000000, 22.000000) rotate(-90.000000) translate(-16.000000, -22.000000) "></path>
+                        <path d="M0,0 L0,29.1979027 C0,37.9251846 7.16342857,45 16,45 C24.8365714,45 32,37.9251846 32,29.1979027 L32,22.2994631" class="squiggle" stroke="#30D6C7"></path>
+                    </g>
+                    <text id="custos" fill-rule="nonzero" font-family="AvenirNext-Medium, Avenir Next" font-size="34" font-weight="400" line-spacing="34" fill="#30D6C7">
+                        <tspan x="45" y="32">custos</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+
+    <style type="text/css"><![CDATA[
+      .squiggle {
+        stroke-dasharray: 450;
+        stroke-dashoffset: 450;
+        animation: draw 20s linear;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes draw {
+        from {
+          stroke-dashoffset: 450;
+        }
+        50% {
+          stroke-dashoffset: 0;
+        }
+        to {
+          stroke-dashoffset: 450;
+        }
+      }
+    ]]></style>
+
+</svg>
