@@ -4,22 +4,11 @@
     <p>We offer various custom Blockchain solutions to fit your project and meet your expectations.</p>
 </div>
 <div id="container">
-    <!-- <div class="card-wrapper" *ngFor="let service of services">
-        <a routerLink="/services" [fragment]="service">
-            <div class="card-content">
-                <h3>{{ 'services.' + service + '.headline' | translate }}</h3>
-                <img [src]="'services.' + service + '.icon' | translate" alt="">
-                <span class="btn-small btn-white">Learn more</span>
-            </div>
-        </a>
-    </div> -->
-    <!-- <div class="card-wrapper" *ngFor="let service of services"> -->
-        <a *ngFor="let service of services" [routerLink]="['/', 'services', 'services.' + service + '.name' | translate | urlFormat]">
-            <div class="card-content">
-                <h3>{{ 'services.' + service + '.name' | translate }}</h3>
-                <img [src]="'services.' + service + '.icon' | translate" [attr.alt]="service + ' icon'">
-                <span class="btn-small btn-white">Learn more</span>
-            </div>
-        </a>
-    <!-- </div> -->
+    <a *ngFor="let service of services" [routerLink]="['/', 'services', 'services.' + service + '.name' | translate | urlFormat]">
+        <div class="card-content">
+            <h3>{{ 'services.' + service + '.name' | translate }}</h3>
+            <img [src]="'services.' + service + '.icon' | translate" [attr.alt]="service + ' icon'">
+            <span class="btn-small btn-white">Learn more</span>
+        </div>
+    </a>
 </div>

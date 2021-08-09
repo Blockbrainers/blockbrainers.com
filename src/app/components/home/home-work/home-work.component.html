@@ -1,38 +1,20 @@
-<!-- <h2>Our Work</h2>
+<div class="title-box">
+    <h2 class="title-bolder">THEY TRUSTED US</h2>
+    <b class="dots">...</b>
+    <p>Thank you all!</p>
+</div>
 <div id="container">
     <ngb-carousel>
-        <ng-template ngbSlide>
+        <ng-template *ngFor="let project of projects" ngbSlide>
             <div class="flex-slide">
                 <div class="description">
-                    <h3>Decentralized Delivery App</h3>
-                    <p>We use Blockchain technology to solve delivery issues!</p>
+                    <h3>{{ 'work.' + project + '.name' | translate }}</h3>
+                    <p>{{ 'work.' + project + '.headline' | translate }}</p>
                 </div>
                 <div class="picsum-img-wrapper">
-                    <img src="../../../assets/images/delivery-dapp.png" alt="">
-                </div>
-            </div>
-        </ng-template>
-        <ng-template ngbSlide>
-            <div class="flex-slide">
-                <div class="description">
-                    <h3>Decentralized Delivery App 2</h3>
-                    <p>We use Blockchain technology to solve delivery issues 2!</p>
-                </div>
-                <div class="picsum-img-wrapper">
-                    <img src="../../../assets/images/delivery-dapp.png" alt="">
-                </div>
-            </div>
-        </ng-template>
-        <ng-template ngbSlide>
-            <div class="flex-slide">
-                <div class="description">
-                    <h3>Decentralized Delivery App 3</h3>
-                    <p>We use Blockchain technology to solve delivery issues 3!</p>
-                </div>
-                <div class="picsum-img-wrapper">
-                    <img src="../../../assets/images/delivery-dapp.png" alt="">
+                    <img [src]="'work.' + project + '.image' | translate" [attr.alt]="project + ' icon'">
                 </div>
             </div>
         </ng-template>
       </ngb-carousel>
-</div> -->
+</div>

@@ -51,7 +51,7 @@ app-top-nav {
     transform: rotate(135deg);
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 2000px) {
     .flex-nav {
         padding: 0 $global-sides-padding-xl;
     }
@@ -66,6 +66,12 @@ app-top-nav {
     }
     app-top-nav {
         display: none;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .flex-nav {
+        padding: 0 $global-sides-padding;
     }
 }
 
