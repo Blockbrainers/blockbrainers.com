@@ -39,6 +39,7 @@ import { IconComponent } from './components/shared/icon/icon.component';
 import { ServicesComponent } from './components/services/services.component';
 import { StackComponent } from './components/shared/stack/stack.component';
 import { HomeStackComponent } from './components/home/home-stack/home-stack.component';
+import { ServiceComponent } from './components/service/service.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -65,6 +66,7 @@ export function createTranslateLoader(http: HttpClient) {
     AboutComponent,
     ContactComponent,
     ServicesComponent,
+    ServiceComponent,
     ContactSocialsComponent,
     HomeBlogComponent,
     QuoteComponent,

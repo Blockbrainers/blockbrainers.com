@@ -9,6 +9,8 @@ import { ContactComponent } from './components/contact/contact.component';
 // import { ServicesComponent } from './components/services/services.component';
 import { WorkComponent } from './components/work/work.component';
 import { ServicesComponent } from './components/services/services.component';
+import { ServiceComponent } from './components/service/service.component';
+import { ServiceNameResolve } from './resolvers/service-name.resolver';
 // import { ServicesComponent } from './components/services/services2.component';
 
 const routes: Routes = [
@@ -23,6 +25,14 @@ const routes: Routes = [
     path: 'services',
     component: ServicesComponent,
     data: { title: 'Blockbrainers | Services' }
+  },
+  {
+    path: 'services/:serviceName',
+    // canActivate: [FragmentGuard],
+    component: ServiceComponent,
+    resolve: {
+      title: ServiceNameResolve
+    }
   },
   {
     path: 'work',

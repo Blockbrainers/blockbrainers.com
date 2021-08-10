@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-services.component.scss']
 })
 export class HomeServicesComponent implements OnInit {
-  public services = ['tokenizationERC20', 'NFT', 'staking', 'governance', 'audit'];
+  public services = ['tokenizationErc20Bep20', 'nftsAndMarketplace', 'defiStaking', 'governanceDao', 'smartContractsAudit'];
 
   constructor() { }
 
