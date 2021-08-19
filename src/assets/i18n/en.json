@@ -240,7 +240,7 @@
             "icon": "./assets/images/services/smart-contract-audit.svg",
             "meta": {
                 "title": "Smart Contracts Audit | Blockbrainers",
-                "description": "Blockbrainer offers Smart Contract auditing services to give you a detailed analysis of your Smart Contracts to ensure that you're not prone to any vulnerabilities.",
+                "description": "Blockbrainers offers Smart Contract auditing services to give you a detailed analysis of your Smart Contracts to ensure that you're not prone to any vulnerabilities.",
                 "keywords": "Smart Contract, blockchain consulting firm, audit smart contract"
             },
             "intro": "The self-executing nature of Smart Contracts makes them a powerful tool for businesses across multiple industries. Our Smart Contracts Audit service virtually guarantees that you get the best out of this tool.",
@@ -263,6 +263,46 @@
                 }
             ]
            
+        },
+        "customProjectAndTeamIntegration": {
+            "name": "Custom Project and Team integration",
+            "icon": "./assets/images/services/training.svg",
+            "meta": {
+                "title": "Custom Project and Team integration | Blockbrainers",
+                "description": "Blockbrainers offers to work on your custom blockchain project, either entirely on our side, or in collaboration with your team.",
+                "keywords": "Blockchain consulting firm, blockchain project, blockchain develpment"
+            },
+            "intro": "We can assist you and your team in your blockchain project in a very flexible way. At Blockbrainers, we have expertise in everything related to blockchain technology. Tell us what would be the best for you and your project",
+            "paragraphs": [
+                {
+                    "text": "At Blockbrainers, we have expertise in everything related to blockchain technology. We offer various specific blockchain development services. To be more flexible, we also provide custom services."
+                },
+                {
+                    "title": "Our scope",
+                    "text": "We have strong experience in all blockchain technologies, as well as regular web development. <br><br>Our experience is not limited to the technical aspect but also on the management, marketing, tokenomics..."
+                },
+                {
+                    "title": "How to assist you",
+                    "text": "We can assist you and your team in your blockchain project in a very flexible way. We can:",
+                    "paragraphs": [
+                        {
+                            "text": "work entirely on your project following functional specifications"
+                        },
+                        {
+                            "text": "work hand to hand in a specific part of your project"
+                        },
+                        {
+                            "text": "integrate one or more of our experts into your team (depending on available resources)"
+                        },
+                        {
+                            "text": "or tell us what would be the best for you and your project"
+                        }
+                    ]
+                },
+                {
+                    "text": "We believe that cooperation between teams will lead to the success of world decentralization."
+                }
+            ]
         }
     },
     "processSteps": {
