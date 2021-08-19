@@ -1,45 +1,315 @@
 {
-    "navbar": {
-        "services-link": "services",
-        "work-link": "travail",
-        "careers-link": "carrières",
-        "about-link": "à propos",
-        "contact-link": "contact"
+    "services": {
+        "tokenizationErc20Bep20": {
+            "name": "Tokenization ERC20 BEP20",
+            "icon": "./assets/images/services/digital-assets.svg",
+            "meta": {
+                "title": "Asset Tokenization ERC20 and BEP20 | Blockbrainers",
+                "description": "Asset tokenization allows users to generate digital and store tokens on the blockchain for their physical and digital assets. Click for more information.",
+                "keywords": "blockchain, Ethereum, cryptocurrency, asset tokenization"
+            },
+            "intro": "Blockbrainers provides hackproof tokens implementing ERC20 standard protocols. There are many reasons why asset tokenization is beneficial for you. While people have tokenized their assets in the past, that was before blockchain technology. Thanks to blockchain, digitalization is more secure and makes more sense than ever.",
+            "paragraphs": [
+                { 
+                    "title": "",
+                    "text": "Asset tokenization allows users to generate digital and store tokens on the blockchain for their physical and digital assets. These tokens are bite-sized portions of your assets. What this means is that you get more tokens than your assets’ dollar worth. Blockchain is secure, so nobody can change, delete, or negate the fact that you own your assets."
+                },
+                {
+                    "title": "ERC20 and BEP20",
+                    "text": "In recent years, there has been a rise in the awareness of cryptocurrency that exists on the blockchain. BEP20 refers to the <a href=\"https://www.binance.org/en/smartChain\" target=\"_blank\">Binance Chain</a>, whereas ERC20 is the <a href=\"https://ethereum.org/en/\" target=\"_blank\">Ethereum Blockchain</a>."
+                },
+                {
+                    "title": "What Can Be Tokenized?",
+                    "text": "Almost anything can be tokenized, including conventional assets and digital investments. For the sake of your convenience, we have broken down the different types of asset tokenization for the blockchain.",
+                    "paragraphs": [
+                        {
+                            "title": "Assets",
+                            "text": "You can tokenize both business and personal assets. The distinction between the two is that personal assets comprise anything that you can cash out. Even hard cash is a personal asset. Conversely, business assets include anything that you can show on the balance sheet."
+                        },
+                        {
+                            "title": "Goods and Services",
+                            "text": "Any goods or services that a business offers can be tokenized and used to buy goods or services from the company. Wallets for online marketplaces are an excellent example of this."
+                        },
+                        {
+                            "title": "Equity",
+                            "text": "Any shares you own in a company are eligible for tokenization on the blockchain. Any equity you own is added to your digital wallet to increase its security."
+                        }
+                    ]
+                },
+                {
+                    "title": "How Is Asset Tokenization Beneficial?",
+                    "text": "There are many reasons why asset tokenization is beneficial for you. While people have tokenized their assets in the past, that was before blockchain technology. Thanks to blockchain, digitalization is more secure and makes more sense than ever.",
+                    "paragraphs": [
+                        {
+                            "title": "More Liquidity",
+                            "text": "Blockchain is decentralized and allows users to tokenize their assets whenever they need them. These assets can be quickly traded, and includes many assets that are illiquid. For example, selling a house is difficult, but selling tokens is quick."
+                        },
+                        {
+                            "title": "Lesser Risk",
+                            "text": "The blockchain protocol is highly transparent, which means that all parties involved in a transaction have access to complete details. You can quickly track the history of an asset, including past ownership information. All activities on the blockchain are apparent, so anyone trying to commit fraud can be shut down immediately."
+                        },
+                        {
+                            "title": "Asset Split",
+                            "text": "Conventionally, the concept of splitting an asset can be tricky and poses its own challenges. However, when you split an asset on the blockchain, any number of users can partially own it."
+                        },
+                        {
+                            "title": "No Intermediaries",
+                            "text": "One of the biggest benefits of blockchain is that buyers and sellers directly interact with each other without intermediaries. Doing so reduces the communication gap and reduces the cost intermediaries charge for their services. Since the transaction is directly between the main parties, it takes only a matter of seconds as compared to conventional methods that could take a number of days."
+                        }
+                    ]
+                },
+                {
+                    "title": "Tokenization of ERC20 and BEP20",
+                    "text": "Blockbrainers provides hackproof tokens implementing ERC20 standard protocols. We offer advanced features for those who need them and allow users to deploy their tokens on ERC20 and BEP20. Blockchain is the future of investments, and we are here to make it a safe and easy process for everyone."
+                }
+            ]
+        },
+        "nftsAndMarketplace": {
+            "name": "NFTs and Marketplace",
+            "icon": "./assets/images/services/dapp.svg",
+            "meta": {
+                "title": "NFTs and Marketplace | Blockbrainers",
+                "description": "NFTs or non-fungible tokens indicate that an asset stored on the blockchain is unique and non-interchangeable.",
+                "keywords": "blockchain, Ethereum, cryptocurrency, nft"
+            },
+            "intro": "Our aim is to provide you with a better and safer future by way of seamless integration. To achieve our goal, we extract custom NFTs on the Ethereum blockchain, following the ERC721 standards. Doing so allows us to provide our users with exceptional security and greater peace of mind.",
+            "paragraphs": [
+                {
+                    "title": "",
+                    "text": "NFTs or non-fungible tokens indicate that an asset stored on the blockchain is unique and non-interchangeable. These assets possess qualities that make them different from others. Examples of NFTs include photos, music, or even files on a computer that you have used for a while. <br><br>The latest example of NFTs are memes that people are trading over the blockchain. Nyan Cat, Keyboard Cat, Success Kid, Bad Luck Brian, and Grumpy Cat are just some of them that have managed to fetch between $32K-$588K."
+                },
+                {
+                    "title": "Implications of NFTs",
+                    "text": "Since NFTs represent different assets such as digital art, game add-ons, movies, physical collections, and more, they aren’t mutually exchangeable. On the other hand, cryptocurrency such as Bitcoin is interchangeable because it isn’t a unique asset as there are many Bitcoins in the market. <br><br>However, purchasing an NFT doesn’t mean that the owner has copyright privileges over the asset. The process of transferring the copyright is up to the creator, and they may choose to hold on to it. <br><br>NFTs are a part of the Ethereum blockchain. The most significant benefit to these assets is that it allows users to sell digital items."
+                },
+                {
+                    "title": "Common Uses of NFTs",
+                    "text": "As is evident by the purchase of memes, digital art is one of the most common assets traded on the NFT market. There have been instances of people purchasing short videos, memes, and photos."
+                },
+                {
+                    "title": "Who Can Buy NFTs?",
+                    "text": "Anyone can buy an NFT, granted you have the money for it. Investing the amount in question means that you have ownership of that asset. However, other people will have access to it and they will be allowed to download and reuse it as often as they want, as long as they don’t infringe on underlying copyright agreements. <br><br>While you can download the file as many times as you want to, it won’t give you ownership of the asset on the blockchain."
+                },
+                {
+                    "title": "Benefits for Creators",
+                    "text": "The rise of NFTs has given artists a market for their work that was otherwise circulating around the internet for free. Due to this, there is likely to be an increase in the number of digital artists. NFTs allow people to showcase their talent to the world while making a decent buck. <br><br>Additionally, creators can set a clause stating that they will receive a certain percentage of the earnings when their NFT is resold to anyone in the future."
+                },
+                {
+                    "title": "Benefits for Buyers",
+                    "text": "As a buyer, investing in an NFT may be beneficial for you in the long run. In the future, you might be able to sell your NFT for any cryptocurrency you wish to invest in."
+                },
+                {
+                    "title": "Why Blockbrainers?",
+                    "text": "Blockbrainers is one of the most comprehensive platforms to help you understand and transition into the digital world. With the world transitioning to blockchain technology, it’s imperative that you stay up-to-date with the latest trends. <br><br>Our aim is to provide you with a better and safer future by way of seamless integration. To achieve our goal, we extract custom NFTs on the Ethereum blockchain, following the ERC721 standards. Doing so allows us to provide our users with exceptional security and greater peace of mind. <br><br>At Blockbrainers, we empower you to build your own marketplace to trade NFTs."
+                }
+            ]
+        },
+        "defiStaking": {
+            "name": "Defi Staking",
+            "icon": "./assets/images/services/smart-contract-dev.svg",
+            "meta": {
+                "title": "DeFi Staking | Blockbrainers",
+                "description": "If you’re new to the world of blockchain, chances are you could do with some help. Here’s everything you need to know about DeFi staking. Click here.",
+                "keywords": "blockchain, Ethereum, cryptocurrency, asset tokenization"
+            },
+            "intro": "We implement DeFi staking protocols for you. As the world shifts to digital, more platforms and networks come into existence every day. Much of this shift is driven by DeFi staking. This has led to more innovation and improved functionality in the digital world because of increasing competition. More people are pulling money out of their bank’s saving accounts and shifting over to the blockchain because the risk is lower, and returns are significantly greater.",
+            "paragraphs": [
+                {
+                    "title": "",
+                    "text": "The world of blockchain can be intimidating for people looking to learn more about it. However, we are here to help you understand some of the essentials. Let us discuss what DeFi staking is, and what it means for you."
+                },
+                {
+                    "title": "What Is DeFi Staking?",
+                    "text": "DeFi stands for Decentralized Finance. DeFi staking is the process by which you can lock in your tokens in order to earn more in the future. It is essentially an investment technique, not dissimilar to fixed bank deposits."
+                },
+                {
+                    "title": "What Is the Benefit of DeFi Staking?",
+                    "text": "When you invest in a bank, you earn interest on your principal investment. Similarly, DeFi staking adds to your tokens based on how many you lock in. The key difference is that staking yields a significantly higher profit than what you would from a traditional financial institution. <br><br>You might be wondering how this benefits the blockchain, and that is an excellent question. People who partake in DeFi staking become part of the validators for the network. This is important because validators boost and maintain a blockchain network’s security. <br><br>The security protocols ensure that nobody tries to cheat the system and commit activities that harm other users or benefit one person unjustly. <br><br>Engaging in DeFi staking is an excellent way to turn over a profit while keeping your risk to a minimum. Additionally, you don’t have to conduct too much analysis, and it generates income passively."
+                },
+                {
+                    "title": "How Does It Work?",
+                    "text": "Things involving the blockchain often sound more complicated than they actually are. As an example, we will consider the Ethereum chain. If you have a stake in the chain, you will earn additional Ethereum as an <a href=\"https://www.stlouisfed.org/open-vault/2020/january/real-life-examples-opportunity-cost\" target=\"_blank\">opportunity cost</a>. <br><br>However, there’s also another way to earn a profit through staking. DeFi staking helps people make a percentage of the revenue generated by products and services traded on the platform."
+                },
+                {
+                    "title": "The Scope of DeFi Staking",
+                    "text": "As the world shifts to digital, more platforms and networks come into existence every day. Much of this shift is driven by DeFi staking. This has led to more innovation and improved functionality in the digital world because of increasing competition. <br><br>More people are pulling money out of their bank’s saving accounts and shifting over to the blockchain because the risk is lower, and returns are significantly greater. The best part is that you can get returns on assets that generally don’t appreciate in value using this technique. <br><br>The future for DeFi staking also seems promising, with the potential of more promising offers in the future. <br><br>However, there is always some risk involved when we deal with online services. Since the number of hacks has seen an increase, <a href=\"https://www.cnbc.com/2021/08/11/cryptocurrency-theft-hackers-steal-600-million-in-poly-network-hack.html\" target=\"_blank\">as apparent by successful hacks on the Poly Network</a>, there is always a risk of losing money."
+                },
+                {
+                    "title": "What We Do",
+                    "text": "Blockbrainers aims to allow people to enter the digital world of blockchain and cryptocurrency without the fear of feeling alone in an everchanging environment. We implement DeFi staking protocols for you and offer the following:",
+                    "paragraphs": [
+                        { "text": "ERC20 and BEP20 token creation" },
+                        { "text": "Staking contract implementation" },
+                        { "text": "Dapp creation" },
+                        { "text": "Deployments on Ethereum, Binance, Polygon, and more..." }
+                    ]
+                }
+            ]
+        },
+        "governanceDao": {
+            "name": "Governance DAO",
+            "icon": "./assets/images/services/integration.svg",
+            "meta": {
+                "title": "Governance DAO | Blockbrainers",
+                "description": "Governance DAO are predominantly found on the Ethereum Network and are an excellent way to work with people with similar interests from anywhere in the world.",
+                "keywords": "blockchain, Ethereum, cryptocurrency, governance DAO"
+            },
+            "intro": "Blockbrainers helps you enter the world of DAOs by creating one for you. Governance DAOs are a means by which like-minded people can work together securely and in a way that benefits all parties.",
+            "paragraphs": [
+                { 
+                    "title": "",
+                    "text": "When dealing with blockchain and anything related to cryptocurrency, it is considered good practice to have all the information you need to make favorable decisions. Governance DAOs are a means by which like-minded people can work together securely and in a way that benefits all parties."
+                },
+                {
+                    "title": "What Is a Governance DAO?",
+                    "text": "A governance DAO (Decentralized Autonomous Organization) allows people to connect over the internet for business. It is similar to a regular company, except that it is entirely on the blockchain and managed by the members. DAOs are generally present on the Ethereum chain. <br><br>Like a regular business, the group has a treasury that is not accessible by anyone without the group’s consent. However, since it can be challenging to make decisions when a group of different minds works together, most decisions are based on proposals that other members vote on. Since the votes are tallied using automatic baked-in coding, there is no chance of manipulation. <br><br> This means that in a governance DAO, the final decision doesn’t lie in the hands of a CEO like it would for conventional businesses. Instead, the process is transparent and open to the members. <br><br>Another benefit a DAO offers over a conventional business is that there is no real hierarchy. Usually, everyone’s voice is equally important, implying that everyone has the power to make critical decisions. <br><br>Additionally, all offerings from the DAO entity are automated rather than conducted by people. Doing so ensured that there is no chance of manipulation throughout the process."
+                },
+                {
+                    "title": "How Does a DAO Work?",
+                    "text": "A DAO is based on smart contracts that define the rules of the organization and host the treasury. The rules of the organization can only be changed using a voting system. Since all processes are run by lines of code, it is impossible for anyone to do anything without the group’s permission, or to go against their will."
+                },
+                {
+                    "title": "Still Don’t Understand?",
+                    "text": "Understanding governance DAOs can be challenging for people who are learning about it for the first time. However, we have put together a list of potential organizations that may exist on the network.",
+                    "paragraphs": [
+                        {
+                            "text": "<strong>Freelancing:</strong> You can use the blockchain network as a hub for freelancers to pool in tokens to buy shared software solutions."
+                        },
+                        {
+                            "text": "<strong>Charities:</strong> Streamline the donation process and decide how and where the organization should spend the money."
+                        }
+                    ]
+                },
+                {
+                    "title": "How Can You Join a DAO?",
+                    "text": "It can be confusing to understand how to become a member of such organizations. Being a member allows you to vote and partake in other critical organizational decisions. <br><br>There are a few ways to get into a governance DAO. The first is token-based, during which governance tokens traded on a decentralized exchange can help a person gain access. Another option is to get shares in an organization using tokens and work during a bartering agreement."
+                },
+                {
+                    "title": "Get Your Own Governance DAO",
+                    "text": "Blockbrainers helps you enter the world of DAOs by creating one for you. We can take the entire organization and integrate core functionality using the Ethereum chain or deploy it on the Binance Smart Chain or the Polygone. Our governance DAOs are secure, and we can walk you through the process."
+                }
+            ]
+        },
+        "smartContractsAudit": {
+            "name": "Smart Contracts Audit",
+            "icon": "./assets/images/services/smart-contract-audit.svg",
+            "meta": {
+                "title": "Smart Contracts Audit | Blockbrainers",
+                "description": "Blockbrainers offers Smart Contract auditing services to give you a detailed analysis of your Smart Contracts to ensure that you're not prone to any vulnerabilities.",
+                "keywords": "Smart Contract, blockchain consulting firm, audit smart contract"
+            },
+            "intro": "The self-executing nature of Smart Contracts makes them a powerful tool for businesses across multiple industries. Our Smart Contracts Audit service virtually guarantees that you get the best out of this tool.",
+            "paragraphs": [
+                {
+                    "title": "",
+                    "text": "Smart Contract is a term based on the idea conceptualized by Nick Szabo in 1994. He described the concept as \"a set of promises, specified in the digital form, including protocols within which the parties perform on these promises.\""
+                },
+                {
+                    "title": "",
+                    "text": "In simpler words, Smart Contracts are an algorithm. A Smart Contract can execute, verify, enforce, and constrain its operations based on predetermined terms. Smart Contracts play an essential role in using blockchain technology to provide a more effective means of executing an agreement when the terms are met."
+                },
+                {
+                    "title": "",
+                    "text": "Smart Contracts effectively automate the entire process and are cryptographically secured through blockchain technology. However, there is a need to audit Smart Contracts because some vulnerabilities can be exploited if the right blockchain consulting firm doesn't address them. Smart Contract audits remove vulnerabilities like bugs, issues in the algorithms, or any loopholes to ensure the Smart Contract's integrity on any distributed ledger."
+                },
+                {
+                    "title": "Work with Blockbrainers for Smart Contracts Auditing",
+                    "text": "Blockbrainers is a blockchain consulting firm with expertise in everything related to blockchain technology. We understand the ins and outs of Smart Contracts and how they operate on various distributed ledgers. Our team analyzes the underlying code in Smart Contracts through our Smart Contracts Audit Service to recognize and correct any bugs through manual and automated testing patterns and detailed reviews. <br><br>The self-executing nature of Smart Contracts makes them a powerful tool for businesses across multiple industries. Our Smart Contracts Audit service virtually guarantees that you get the best out of this tool."
+                }
+            ]
+           
+        },
+        "customProjectsAndTeamIntegration": {
+            "name": "Custom Projects and Team integration",
+            "icon": "./assets/images/services/training.svg",
+            "meta": {
+                "title": "Custom Projects and Team integration | Blockbrainers",
+                "description": "Blockbrainers offers to work on your custom blockchain project, either entirely on our side, or in collaboration with your team.",
+                "keywords": "Blockchain consulting firm, blockchain project, blockchain develpment"
+            },
+            "intro": "We can assist you and your team with your blockchain project in a very flexible way. At Blockbrainers, we have expertise in everything related to blockchain technology. Tell us what would be the best for you and your project",
+            "paragraphs": [
+                {
+                    "text": "At Blockbrainers, we have expertise in everything related to blockchain technology. We offer various specific blockchain development services. To be more flexible, we also provide custom services."
+                },
+                {
+                    "title": "Our scope",
+                    "text": "We have strong experience in all blockchain technologies, as well as regular web development. <br><br>Our experience is not limited to the technical aspect but also on the management, marketing, tokenomics..."
+                },
+                {
+                    "title": "How to assist you",
+                    "text": "We can assist you and your team in your blockchain project in a very flexible way. We can:",
+                    "paragraphs": [
+                        {
+                            "text": "work entirely on your project following functional specifications"
+                        },
+                        {
+                            "text": "work hand to hand in a specific part of your project"
+                        },
+                        {
+                            "text": "integrate one or more of our experts into your team (depending on available resources)"
+                        },
+                        {
+                            "text": "or tell us what would be the best for you and your project"
+                        }
+                    ]
+                },
+                {
+                    "text": "We believe that cooperation between teams will lead to the success of world decentralization."
+                }
+            ]
+        }
     },
-    "headline": "Nous transformons les bonnes idées en <b>Applications décentralisées</b> connectées à la <b>Blockchain.</b>",
-    "contact-button": "Discutons-en",
-    "contact": {
-        "form": {
-            "firstName": {
-                "label": "prénom",
-                "placeholder": "Entrez votre prénom",
-                "error": {
-                    "required": "Le prénom est requis"
-                }
-            },
-            "lastName": {
-                "label": "nom",
-                "placeholder": "Entrez votre nom",
-                "error": {
-                    "required": "Le nom est requis"
-                }
-            },
-            "email": {
-                "label": "courriel",
-                "placeholder": "Entrez votre adresse courriel",
-                "error": {
-                    "required": "L'adresse courriel est requise",
-                    "invalid": "Veuillez entrer une adresse courriel valide"
-                }
-            },
-            "message": {
-                "label": "message",
-                "placeholder": "Tapez votre message ici...",
-                "error": {
-                    "required": "Le message est requis"
-                }
-            },
-            "send": "Envoyer"
+    "processSteps": {
+        "idea": {
+            "headline": "Idea",
+            "text": "You have an idea or need one, talk to us! We get to know each other, and we explain what value we can bring to you."
+        },
+        "analysis": {
+            "headline": "Analysis",
+            "text": "We will set the technical requirements of the solution."
+        },
+        "planning": {
+            "headline": "Planning",
+            "text": "After functional and technical analysis, we define the project's scope and roadmap."
+        },
+        "MVP": {
+            "headline": "MVP",
+            "text": "We build a Minimum Valuable Product, a simple implementation of the main features to test it on testnet, collecting feedback, and get ready for the full implementation."
+        },
+        "fullImplementation": {
+            "headline": "Full Implementation",
+            "text": "After having tested and approved MVP, we're ready to build the entire project and deploy it on mainnet."
+        },
+        "maintenance": {
+            "headline": "Maintenance",
+            "text": "After successfully launch your project, we'll still support you, bringing improvement and fixing if needed."
+        }
+    },
+    "work": {
+        "komet": {
+            "name": "Komet Finance",
+            "headline": "New Decentralized Hedge Fund.",
+            "description": "Komet Finance is organized around a service that allows anyone to come together and become more powerful. As a decentralized Hedge Fund, the overall goal is to deliver dividends to stakeholders.",
+            "platforms": ["Ethereum"],
+            "image": "./assets/images/work/komet-logo.svg",
+            "website": "https://komet.capital/"
+        },
+        "custos": {
+            "name": "Custos",
+            "headline": "Cross-chain NFT solutions.",
+            "description": "A Cross-chain protocol exploiting all the potential of NFTs to build advanced decentralized financial products with the key focus being security.",
+            "platforms": ["Ethereum"],
+            "image": "./assets/images/work/custos-logo.svg",
+            "website": "https://custos.finance/"
+        },
+        "toddlerinu": {
+            "name": "Toddler Inu",
+            "headline": "The most advanced lottery protocol. Millions of dollars gifts.",
+            "description": "An innovative DeFi token on Binance Smart Chain. We combined an ingenious tokenomics designed to maximize profits, with a unique lottery system by tier for all holders with all our products -almost- instantly deliverable.",
+            "platforms": ["Binance Smart Chain"],
+            "image": "./assets/images/work/toddlerinu-logo.svg",
+            "website": "https://toddlerinu.wtf/"
         }
     }
 }

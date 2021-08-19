@@ -1,49 +1,4 @@
 {
-    "navbar": {
-        "services-link": "services",
-        "work-link": "work",
-        "careers-link": "careers",
-        "about-link": "about",
-        "contact-link": "contact"
-    },
-    "title": "BLOCKCHAIN FOR EVERYONE",
-    "headline": "We design and develop <b>Blockchain-based solutions</b> for enterprises.",
-    "description": "Blockchain is a famous and revolutionizing technology, but most people don't know about it beyond cryptocurrency. Blockchain offers a lot more. We help businesses understand and integrate this technology to benefit from it and be part of the revolution.",
-    "contact-button": "Let's talk",
-    "contact": {
-        "form": {
-            "firstName": {
-                "label": "First name",
-                "placeholder": "Enter your first name",
-                "error": {
-                    "required": "First name is required"
-                }
-            },
-            "lastName": {
-                "label": "Last name",
-                "placeholder": "Enter your last name",
-                "error": {
-                    "required": "Last name is required"
-                }
-            },
-            "email": {
-                "label": "email",
-                "placeholder": "Enter your email address",
-                "error": {
-                    "required": "Email address is required",
-                    "invalid": "Please provide a valid email address"
-                }
-            },
-            "message": {
-                "label": "message",
-                "placeholder": "Type your message here...",
-                "error": {
-                    "required": "Message is required"
-                }
-            },
-            "send": "send"
-        }
-    },
     "services": {
         "tokenizationErc20Bep20": {
             "name": "Tokenization ERC20 BEP20",

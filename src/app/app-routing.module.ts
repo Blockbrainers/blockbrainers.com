@@ -3,20 +3,14 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { CareersComponent } from './components/careers/careers.component';
 import { AboutComponent } from './components/about/about.component';
-import { FragmentGuard } from './guards/fragment.guard';
-import { InfrastructureComponent } from './components/infrastructure/infrastructure.component';
 import { ContactComponent } from './components/contact/contact.component';
-// import { ServicesComponent } from './components/services/services.component';
 import { WorkComponent } from './components/work/work.component';
 import { ServicesComponent } from './components/services/services.component';
 import { ServiceComponent } from './components/service/service.component';
-import { ServiceNameResolve } from './resolvers/service-name.resolver';
-// import { ServicesComponent } from './components/services/services2.component';
 
 const routes: Routes = [
   {
     path: '',
-    // canActivate: [FragmentGuard],
     component: HomeComponent,
     pathMatch: 'full',
     data: { title: 'Blockbrainers | Blockchain Consulting Company' }
@@ -28,11 +22,7 @@ const routes: Routes = [
   },
   {
     path: 'services/:serviceName',
-    // canActivate: [FragmentGuard],
     component: ServiceComponent,
-    // resolve: {
-    //   title: ServiceNameResolve
-    // }
   },
   {
     path: 'work',
@@ -49,15 +39,8 @@ const routes: Routes = [
     component: ContactComponent,
     data: { title: 'Blockbrainers | Contact' }
   },
-  // {
-  //   path: 'about',
-  //   canActivate: [FragmentGuard],
-  //   component: AboutComponent,
-  //   data: { title: 'About | Blockbrainers' }
-  // },
   {
     path: 'careers',
-    // canActivate: [FragmentGuard],
     component: CareersComponent,
     data: { title: 'Careers | Blockbrainers' }
   },

@@ -31,9 +31,6 @@ import { ContactSectionComponent } from './components/shared/contact-section/con
 import { HomeBlogComponent } from './components/home/home-blog/home-blog.component';
 import { QuoteComponent } from './components/shared/quote/quote.component';
 import { UrlFormatPipe } from './pipes/url-format.pipe';
-import { ServiceNameResolve } from './resolvers/service-name.resolver';
-import { InvestmentsComponent } from './components/investments/investments.component';
-import { InfrastructureComponent } from './components/infrastructure/infrastructure.component';
 import { WorkComponent } from './components/work/work.component';
 import { IconComponent } from './components/shared/icon/icon.component';
 import { ServicesComponent } from './components/services/services.component';
@@ -71,8 +68,6 @@ export function createTranslateLoader(http: HttpClient) {
     HomeBlogComponent,
     QuoteComponent,
     UrlFormatPipe,
-    InvestmentsComponent,
-    InfrastructureComponent,
     WorkComponent,
     IconComponent,
     StackComponent,
@@ -98,8 +93,7 @@ export function createTranslateLoader(http: HttpClient) {
   ],
   providers: [
     TransferState, 
-    Title,
-    ServiceNameResolve
+    Title
   ],
   bootstrap: [AppComponent]
 })
