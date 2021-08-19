@@ -264,11 +264,11 @@
             ]
            
         },
-        "customProjectAndTeamIntegration": {
-            "name": "Custom Project and Team integration",
+        "customProjectsAndTeamIntegration": {
+            "name": "Custom Projects and Team integration",
             "icon": "./assets/images/services/training.svg",
             "meta": {
-                "title": "Custom Project and Team integration | Blockbrainers",
+                "title": "Custom Projects and Team integration | Blockbrainers",
                 "description": "Blockbrainers offers to work on your custom blockchain project, either entirely on our side, or in collaboration with your team.",
                 "keywords": "Blockchain consulting firm, blockchain project, blockchain develpment"
             },
