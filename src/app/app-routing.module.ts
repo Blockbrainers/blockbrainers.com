@@ -30,9 +30,9 @@ const routes: Routes = [
     path: 'services/:serviceName',
     // canActivate: [FragmentGuard],
     component: ServiceComponent,
-    resolve: {
-      title: ServiceNameResolve
-    }
+    // resolve: {
+    //   title: ServiceNameResolve
+    // }
   },
   {
     path: 'work',

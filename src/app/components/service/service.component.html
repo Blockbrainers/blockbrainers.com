@@ -1,12 +1,32 @@
 <div class="page-container">
     <h1 class="title-page">{{ 'services.' + serviceKey + '.name' | translate }}</h1>
-    <div class="section">
+    <!-- <div class="section">
         <img class="icon" [src]="'services.' + serviceKey + '.icon' | translate" [attr.alt]="serviceKey + ' icon'">
         <p class="text">
             {{ 'services.' + serviceKey + '.definition' | translate }}<br><br>
             {{ 'services.' + serviceKey + '.benefits' | translate }}<br><br>
             {{ 'services.' + serviceKey + '.description' | translate }}
         </p>
+        <br>
+        <a class="btn-small btn-white" routerLink="/contact">Get a free quote</a>
+    </div> -->
+    <div class="section">
+        <img class="icon" [src]="'services.' + serviceKey + '.icon' | translate" [attr.alt]="serviceKey + ' icon'">
+        <div *ngFor="let paragraph of 'services.' + serviceKey + '.paragraphs' | translate">
+            <br>
+            <h2>{{ paragraph.title }}</h2>
+            <p class="text" [innerHTML]="paragraph.text"></p>
+            <ul *ngIf="paragraph.paragraphs && paragraph.paragraphs.length > 0">
+                <br>
+                <li *ngFor="let subParagraph of paragraph.paragraphs">
+                    <div>
+                        <h3>{{ subParagraph.title }}</h3>
+                        <p class="text" [innerHTML]="subParagraph.text"></p>
+                        <br>
+                    </div>
+                </li>
+            </ul>
+        </div>
         <br>
         <a class="btn-small btn-white" routerLink="/contact">Get a free quote</a>
     </div>

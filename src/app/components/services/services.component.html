@@ -4,7 +4,7 @@
         <div class="content">
             <h3>{{ 'services.' + service + '.name' | translate }}</h3>
             <br>
-            <p>{{ 'services.' + service + '.definition' | translate }}</p>
+            <p>{{ 'services.' + service + '.intro' | translate }}</p>
             <a class="btn-small btn-white" [routerLink]="['/', 'services', 'services.' + service + '.name' | translate | urlFormat]">Learn more</a>
             <!-- <p>{{ 'services.' + service + '.definition' | translate }}
                 {{ 'services.' + service + '.benefits' | translate }}

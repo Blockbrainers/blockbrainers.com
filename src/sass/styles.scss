@@ -8,6 +8,7 @@
 @import '../sass/components/buttons';
 @import '../sass/components/separator';
 @import '../sass/components/card';
+@import '../sass/components/titles';
 
 // html {
 //     overflow: scroll;
@@ -71,25 +72,25 @@ p, a, h1, h2, h3, h4 {
     color: $gold;
 }
 
-.title-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 30px;
-    h2 {
-        margin-bottom: 0;
-    }
-    p {
-        text-align: center;
-    }
-    .dots {
-        font-weight: 400;
-        font-size: 1.6rem;
-        margin-top: -15px;
-    }
-}
+// .title-box {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     text-align: center;
+//     margin-bottom: 30px;
+//     h2 {
+//         margin-bottom: 0;
+//     }
+//     p {
+//         text-align: center;
+//     }
+//     .dots {
+//         font-weight: 400;
+//         font-size: 1.6rem;
+//         margin-top: -15px;
+//     }
+// }
 
 .text-lighter {
     font-weight: 100;
@@ -158,12 +159,12 @@ ngb-accordion {
 
 
 @media screen and (max-width: 768px) {
-    h2 {
-        font-size: 1.8rem;
-    }
-    h3 {
-        font-size: 1.6rem;
-    }
+    // h2 {
+    //     font-size: 1.8rem;
+    // }
+    // h3 {
+    //     font-size: 1.6rem;
+    // }
     .font-medium {
         font-size: 1.2rem;
     }
@@ -184,12 +185,12 @@ ngb-accordion {
 }
 
 @media screen and (max-width: 500px) {
-    h2 {
-        font-size: 1.6rem;
-    }
-    h3 {
-        font-size: 1.4rem;
-    }
+    // h2 {
+    //     font-size: 1.6rem;
+    // }
+    // h3 {
+    //     font-size: 1.4rem;
+    // }
     p, a {
         font-size: .95rem;
     }
@@ -216,12 +217,12 @@ ngb-accordion {
 }
 
 @media screen and (max-width: 400px) {
-    h2 {
-        font-size: 1.5rem;
-    }
-    h3 {
-        font-size: 1.3rem;
-    }
+    // h2 {
+    //     font-size: 1.5rem;
+    // }
+    // h3 {
+    //     font-size: 1.3rem;
+    // }
     p, a {
         font-size: .85rem;
     }
