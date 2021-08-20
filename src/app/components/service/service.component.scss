@@ -1,17 +1,38 @@
-.text {
-    // line-height: 1.6; 
-    // text-align: justify;
-    margin: 0;
-    // font-size: 14px;
+@import 'src/sass/variables';
+
+.offer-part {
+    margin-bottom: 20px;
+    h2 {
+        background-color: $blue-dark;
+        color: #fff;
+        padding: 15px;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+    .details {
+        border: 1px solid $blue-dark;
+        border-radius: 3px;
+        padding: 20px;
+    }
+    .details h3 {
+        text-decoration: underline;
+    }
 }
 
-.icon {
-    height: 220px; 
-    width:220px;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
+.title-icon {
+    display:  flex;
+    align-items: center;
+    .icon {
+        height: 70px; 
+        margin-left: 20px;
+    }
 }
+
+.text {
+    text-align: justify;
+    margin: 0;
+}
+
 
 ul {
     list-style: circle;

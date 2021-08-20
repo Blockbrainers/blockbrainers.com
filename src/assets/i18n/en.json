@@ -8,6 +8,14 @@
                 "description": "Asset tokenization allows users to generate digital and store tokens on the blockchain for their physical and digital assets. Click for more information.",
                 "keywords": "blockchain, Ethereum, cryptocurrency, asset tokenization"
             },
+            "offer": {
+                "packs": [
+                    { "title": "Standard ERC20/BEP20", "description": "We will create a standard ERC20 Token and deployed to any mainnet." },
+                    { "title": "Mintable / Burnable ERC20 BEP20", "description": "We will create a Mintable ERC20 Token and deployed to any mainnet." },
+                    { "title": "Deflationary ERC20 BEP20", "description": "We will create a Deflationary ERC20 Token with features like: Fees, Blacklist, priceImpact, buyback and burn. You'll have the choice." }
+                ],
+                "description": "<strong>Includes:</strong> etherscan verification, testnet test live demo, deploy live from your wallet, automated tests, source code. <br> Options: presale, website, marketing."
+            },
             "intro": "Blockbrainers provides hackproof tokens implementing ERC20 standard protocols. There are many reasons why asset tokenization is beneficial for you. While people have tokenized their assets in the past, that was before blockchain technology. Thanks to blockchain, digitalization is more secure and makes more sense than ever.",
             "paragraphs": [
                 { 
@@ -72,6 +80,14 @@
                 "description": "NFTs or non-fungible tokens indicate that an asset stored on the blockchain is unique and non-interchangeable.",
                 "keywords": "blockchain, Ethereum, cryptocurrency, nft"
             },
+            "offer": {
+                "packs": [
+                    { "title": "Mintable ER721 token", "description": "We will create a Mintable ER721 token and deployed to any mainnet." },
+                    { "title": "Custom ERC721 Token with advanced features", "description": "We will create a Custom ERC721 Token with advanced features and deployed to any mainnet." },
+                    { "title": "Custom ERC721 + Custom marketplace", "description": "We will create a custom ERC721 with advanded features, and we will build your own NFT marketplace." }
+                ],
+                "description": "<strong>Includes:</strong> Metadata deployed to ipfs testnet test live demo, deploy live from your wallet, automated tests, source code, tradable on Opensea."
+            },
             "intro": "Our aim is to provide you with a better and safer future by way of seamless integration. To achieve our goal, we extract custom NFTs on the Ethereum blockchain, following the ERC721 standards. Doing so allows us to provide our users with exceptional security and greater peace of mind.",
             "paragraphs": [
                 {
@@ -111,6 +127,14 @@
                 "title": "DeFi Staking | Blockbrainers",
                 "description": "If you’re new to the world of blockchain, chances are you could do with some help. Here’s everything you need to know about DeFi staking. Click here.",
                 "keywords": "blockchain, Ethereum, cryptocurrency, asset tokenization"
+            },
+            "offer": {
+                "packs": [
+                    { "title": "ERC20 Token with staking", "description": "We will create a ERC20 Token with its staking contract deployed to any mainnet. We can also implement a dedicated staking Dapp." },
+                    { "title": "ERC20 Token with NFT Vault staking contract", "description": "We will create a Custom ERC721 as NFT Vault into which users will be able to stake your ERC20 Token and earn rewards. It's safer and more decentralized than traditional staking contract protocol since users will stake into their own NFT Vaults. We can also implement a dedicated Dapp." },
+                    { "title": "More advanced custom staking protocol", "description": "We will create a more advanced custom staking protocol that will fit your needs." }
+                ],
+                "description": "<strong>Includes:</strong> etherscan verification, testnet test live demo, deploy live from your wallet, automated tests, source code."
             },
             "intro": "We implement DeFi staking protocols for you. As the world shifts to digital, more platforms and networks come into existence every day. Much of this shift is driven by DeFi staking. This has led to more innovation and improved functionality in the digital world because of increasing competition. More people are pulling money out of their bank’s saving accounts and shifting over to the blockchain because the risk is lower, and returns are significantly greater.",
             "paragraphs": [
@@ -153,6 +177,14 @@
                 "title": "Governance DAO | Blockbrainers",
                 "description": "Governance DAO are predominantly found on the Ethereum Network and are an excellent way to work with people with similar interests from anywhere in the world.",
                 "keywords": "blockchain, Ethereum, cryptocurrency, governance DAO"
+            },
+            "offer": {
+                "packs": [
+                    { "title": "Simple organization", "description": "We will create a simple organization with UI and voting system using Aragon and deployed to any mainnet." },
+                    { "title": "More complex organization", "description": "We will create a more complex organization with UI and voting system using Aragon and deployed to any mainnet." },
+                    { "title": "Fully custom Aragon DAO", "description": "We will create a Fully customizable Aragon DAO using Aragon protocol and deployed to any mainnet. Also includes source code." }
+                ],
+                "description": "<strong>Includes:</strong> deploy with your wallet, testnet test live demo."
             },
             "intro": "Blockbrainers helps you enter the world of DAOs by creating one for you. Governance DAOs are a means by which like-minded people can work together securely and in a way that benefits all parties.",
             "paragraphs": [
@@ -198,6 +230,14 @@
                 "description": "Blockbrainers offers Smart Contract auditing services to give you a detailed analysis of your Smart Contracts to ensure that you're not prone to any vulnerabilities.",
                 "keywords": "Smart Contract, blockchain consulting firm, audit smart contract"
             },
+            "offer": {
+                "packs": [
+                    { "title": "ERC20 token contract audit", "description": "We will audit your ERC20 token contract and deliver a report." },
+                    { "title": "ERC721, ERC223 contract audit", "description": "We will audit your ERC721, ERC223 contract and deliver a report." },
+                    { "title": "Custom contract audit", "description": "We will audit your custom contract and deliver a report." }
+                ],
+                "description": "<strong>Includes:</strong> Audit Report."
+            },
             "intro": "The self-executing nature of Smart Contracts makes them a powerful tool for businesses across multiple industries. Our Smart Contracts Audit service virtually guarantees that you get the best out of this tool.",
             "paragraphs": [
                 {
@@ -226,6 +266,14 @@
                 "title": "Custom Projects and Team integration | Blockbrainers",
                 "description": "Blockbrainers offers to work on your custom blockchain project, either entirely on our side, or in collaboration with your team.",
                 "keywords": "Blockchain consulting firm, blockchain project, blockchain develpment"
+            },
+            "offer": {
+                "packs": [
+                    { "title": "Specific part of your project", "description": "We will work on aspecific part of your project." },
+                    { "title": "Entire project", "description": "We will build your entier project. Functional specifications, technical architecture, roadmap, MVP, testing, fixes and validation, mainnet deployment." },
+                    { "title": "Resources integration into your team", "description": "We will provide resources to be part of your project's team." }
+                ],
+                "description": "<strong>Includes:</strong> meetings, documentations, source code."
             },
             "intro": "We can assist you and your team with your blockchain project in a very flexible way. At Blockbrainers, we have expertise in everything related to blockchain technology. Tell us what would be the best for you and your project",
             "paragraphs": [
