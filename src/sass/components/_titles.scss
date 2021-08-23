@@ -25,3 +25,16 @@ h3 {
         margin-top: -15px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    // .title-page {
+    //     // margin: 0 auto;
+    //     border: none;
+    // }
+}
+
+@media screen and (max-width: 500px) {
+    .title-box {
+        margin-bottom: 0px;
+    }
+}

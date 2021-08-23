@@ -24,16 +24,22 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
     .main-wrapper {
         padding: $navbar-height $global-sides-padding-medium 0 $global-sides-padding-medium;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-wrapper {
+        padding: $navbar-height $global-sides-padding-small 0 $global-sides-padding-small;
     }
 }
 
 
 @media screen and (max-width: 500px) {
     .main-wrapper {
-        padding: $navbar-height $global-sides-padding-small 0 $global-sides-padding-small;
+        padding: $navbar-height $global-sides-padding-xs 0 $global-sides-padding-xs;
     }
 }
 

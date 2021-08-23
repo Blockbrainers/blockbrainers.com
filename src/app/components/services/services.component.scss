@@ -21,6 +21,7 @@
     justify-content: space-between;
     .content {
         width: 70%;
+        text-align: justify;
     }
     .image-box {
         display: flex;
@@ -58,19 +59,21 @@
     margin: 0 25px;
 }
 
+@media screen and (max-width: 815px) {
+    .service-section {
+        .image-box {
+            // width: 115px;
+            display: none;
+        } 
+    }
+}
+
 @media screen and (max-width: 768px) {
     .service-section {
         justify-content: center;
         .content {
             width: 100%;
-            text-align: center;
-        }   
-        .image-box {
-            width: 115px;
-        } 
-    }
-    .btn-small {
-        margin: 10px auto;
+        }
     }
 }
 

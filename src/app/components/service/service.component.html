@@ -3,27 +3,8 @@
         <h1 class="title-page">{{ 'services.' + serviceKey + '.name' | translate }}</h1>
         <img class="icon" [src]="'services.' + serviceKey + '.icon' | translate" [attr.alt]="serviceKey + ' icon'" loading="lazy">
     </div>
-    <!-- <div class="section">
-        <img class="icon" [src]="'services.' + serviceKey + '.icon' | translate" [attr.alt]="serviceKey + ' icon'">
-        <p class="text">
-            {{ 'services.' + serviceKey + '.definition' | translate }}<br><br>
-            {{ 'services.' + serviceKey + '.benefits' | translate }}<br><br>
-            {{ 'services.' + serviceKey + '.description' | translate }}
-        </p>
-        <br>
-        <a class="btn-small btn-white" routerLink="/contact">Get a free quote</a>
-    </div> -->
-    <!-- "offer": {
-        "packs": [
-            { "title": "Specific part of your project", "description": "We will work on aspecific part of your project." },
-            { "title": "Entire project", "description": "We will build your entier project. Functional specifications, technical architecture, roadmap, MVP, testing, fixes and validation, mainnet deployment." },
-            { "title": "Resources integration into your team", "description": "We will provide resources to be part of your project's team." }
-        ],
-        "description": "Includes: meetings, documentations, source code."
-    }, -->
     <div class="section">
         <div class="offer-part">
-            <!-- <img class="icon" [src]="'services.' + serviceKey + '.icon' | translate" [attr.alt]="serviceKey + ' icon'"> -->
             <div class="details">
                 <h2>Offer</h2>
                 <ul *ngIf="('services.' + serviceKey + '.offer.packs' | translate).length > 0">

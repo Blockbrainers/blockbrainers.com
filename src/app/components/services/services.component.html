@@ -6,9 +6,6 @@
             <br>
             <p>{{ 'services.' + service + '.intro' | translate }}</p>
             <a class="btn-small btn-white" [routerLink]="['/', 'services', 'services.' + service + '.name' | translate | urlFormat]">Service Details</a>
-            <!-- <p>{{ 'services.' + service + '.definition' | translate }}
-                {{ 'services.' + service + '.benefits' | translate }}
-                {{ 'services.' + service + '.description' | translate }}</p> -->
         </div>
         <div class="image-box">
             <img [src]="'services.' + service + '.icon' | translate" [attr.alt]="service + ' icon'" loading="lazy">

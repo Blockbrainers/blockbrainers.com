@@ -12,8 +12,8 @@
 
 @media screen and (max-width: 768px) {
     .wrapper {
-        margin: 0 calc(-#{$global-sides-padding-medium});
-        padding: 50px $global-sides-padding-medium;
+        margin: 0 calc(-#{$global-sides-padding-small});
+        padding: 50px $global-sides-padding-small;
     }
     .title-box {
         margin-bottom: 40px;
@@ -25,8 +25,8 @@
 
 @media screen and (max-width: 500px) {
     .wrapper {
-        margin: 0 calc(-#{$global-sides-padding-small});
-        padding: 50px $global-sides-padding-small;
+        margin: 0 calc(-#{$global-sides-padding-xs});
+        padding: 50px $global-sides-padding-xs;
     }
     .contact-details {
         margin-bottom: 40px;

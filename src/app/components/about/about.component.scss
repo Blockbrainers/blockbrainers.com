@@ -47,20 +47,10 @@
     }
 }
 
-.title-page {
-    margin-bottom: -30px;
-}
-
 @media screen and (max-width: 768px) {
-    p {
-        text-align: center;
-    }
     .text-intro {
         margin-bottom: 40px;
-    }
-    .text-intro .btn-gold {
-        margin: 0 auto;
-    }    
+    }  
     .card-content {
         width: 85%;
     }

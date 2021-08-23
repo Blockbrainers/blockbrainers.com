@@ -9,10 +9,9 @@
         <h3>{{ 'work.' + project + '.name' | translate }}</h3>
         <strong>{{ 'work.' + project + '.headline' | translate }}</strong>
         <p><strong>Platforms: </strong>{{ 'work.' + project + '.platforms' | translate }}</p>
-          <p class="flex-card-content-text">{{ 'work.' + project + '.description' | translate }}</p>
-        <a [href]="'work.' + project + '.website' | translate" 
-            target="_blank">
-            Website
+        <p class="flex-card-content-text">{{ 'work.' + project + '.description' | translate }}</p>
+        <a class="btn-small btn-white" [href]="'work.' + project + '.website' | translate" target="_blank">
+          Website
         </a>
     </div>
   </div>

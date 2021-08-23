@@ -156,7 +156,15 @@ ngb-accordion {
     }
 }
 
-
+@media screen and (max-width: 1100px) {
+    .section {
+        padding: 50px 0;
+     }
+    .full-width-section {
+        padding: 50px $global-sides-padding-medium;
+        margin: 0 calc(-#{$global-sides-padding-medium});
+    }
+}
 
 @media screen and (max-width: 768px) {
     // h2 {
@@ -175,22 +183,12 @@ ngb-accordion {
         padding: 50px 0;
      }
     .full-width-section {
-        padding: 50px $global-sides-padding-medium;
-        margin: 0 calc(-#{$global-sides-padding-medium});
-    }
-    .title-page {
-        margin: 0 auto;
-        border: none;
+        padding: 50px $global-sides-padding-small;
+        margin: 0 calc(-#{$global-sides-padding-small});
     }
 }
 
 @media screen and (max-width: 500px) {
-    // h2 {
-    //     font-size: 1.6rem;
-    // }
-    // h3 {
-    //     font-size: 1.4rem;
-    // }
     p, a {
         font-size: .95rem;
     }
@@ -200,16 +198,9 @@ ngb-accordion {
     .font-large {
         font-size: 1.15rem;
     }
-    /////
-    .title-box {
-        margin-bottom: 0px;
-    }
-    .section {
-        // padding: 0px 0;
-     }
     .full-width-section {
-        padding: 50px $global-sides-padding-small;
-        margin: 0 calc(-#{$global-sides-padding-small})
+        padding: 50px $global-sides-padding-xs;
+        margin: 0 calc(-#{$global-sides-padding-xs})
     }
     .page-container {
         padding: 30px 0 0 0;
@@ -217,12 +208,6 @@ ngb-accordion {
 }
 
 @media screen and (max-width: 400px) {
-    // h2 {
-    //     font-size: 1.5rem;
-    // }
-    // h3 {
-    //     font-size: 1.3rem;
-    // }
     p, a {
         font-size: .85rem;
     }
