@@ -1,7 +1,7 @@
 <div class="page-container">
     <div class="title-icon">
         <h1 class="title-page">{{ 'services.' + serviceKey + '.name' | translate }}</h1>
-        <img class="icon" [src]="'services.' + serviceKey + '.icon' | translate" [attr.alt]="serviceKey + ' icon'">
+        <img class="icon" [src]="'services.' + serviceKey + '.icon' | translate" [attr.alt]="serviceKey + ' icon'" loading="lazy">
     </div>
     <!-- <div class="section">
         <img class="icon" [src]="'services.' + serviceKey + '.icon' | translate" [attr.alt]="serviceKey + ' icon'">

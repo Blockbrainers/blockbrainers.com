@@ -12,7 +12,7 @@
                     <p>{{ 'work.' + project + '.headline' | translate }}</p>
                 </div>
                 <div class="picsum-img-wrapper">
-                    <img [src]="'work.' + project + '.image' | translate" [attr.alt]="project + ' icon'">
+                    <img [src]="'work.' + project + '.image' | translate" [attr.alt]="project + ' icon'" loading="lazy">
                 </div>
             </div>
         </ng-template>

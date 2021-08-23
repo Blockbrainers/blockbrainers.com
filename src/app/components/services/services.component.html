@@ -11,7 +11,7 @@
                 {{ 'services.' + service + '.description' | translate }}</p> -->
         </div>
         <div class="image-box">
-            <img [src]="'services.' + service + '.icon' | translate" [attr.alt]="service + ' icon'">
+            <img [src]="'services.' + service + '.icon' | translate" [attr.alt]="service + ' icon'" loading="lazy">
         </div>
     </div>
 </div>

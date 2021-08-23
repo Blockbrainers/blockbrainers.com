@@ -7,7 +7,7 @@
     <a *ngFor="let service of services" [routerLink]="['/', 'services', 'services.' + service + '.name' | translate | urlFormat]">
         <div class="card-content">
             <h3>{{ 'services.' + service + '.name' | translate }}</h3>
-            <img [src]="'services.' + service + '.icon' | translate" [attr.alt]="service + ' icon'">
+            <img [src]="'services.' + service + '.icon' | translate" [attr.alt]="service + ' icon'" loading="lazy">
             <span class="btn-small btn-white">Learn more</span>
         </div>
     </a>
