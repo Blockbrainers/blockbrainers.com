@@ -4,21 +4,35 @@ footer {
     z-index: 1;
     color: $white;
     background-color: $blue-dark;
-    height: $footerHeight;
-    padding: 0 $global-sides-padding;
+    // height: $footerHeight;
+    padding: 30px $global-sides-padding;
     width: 100%;
     position: absolute;
     left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap-reverse;
 }
 
 .links {
     display: flex;
+    align-items: center;
     a {
         color: #fff;
         margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    footer {
+        justify-content: center;
+    }
+    #copyright {
+        margin-top: 25px;
+    }
+    .links a:first-child {
+        margin-left: 0px;
     }
 }
 

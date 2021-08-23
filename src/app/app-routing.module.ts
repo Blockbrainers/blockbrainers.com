@@ -27,12 +27,12 @@ const routes: Routes = [
   {
     path: 'work',
     component: WorkComponent,
-    data: { title: 'Development | Work' }
+    data: { title: 'Blockbrainers | Work' }
   },
   {
     path: 'about',
     component: AboutComponent,
-    data: { title: 'Development | About' }
+    data: { title: 'Blockbrainers | About' }
   },
   {
     path: 'contact',

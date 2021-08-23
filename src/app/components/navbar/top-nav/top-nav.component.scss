@@ -30,11 +30,11 @@ nav {
         text-decoration: none;
         color: $gold;
     }
+    .active-link {
+        color: $gold;
+    }
 }
 
-.active-link {
-    color: $gold;
-}
 
 .nav-right {
     display: flex;

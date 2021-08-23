@@ -3,19 +3,18 @@
 .flex-container {
     display: flex;
     justify-content: space-between;
-    height: calc(100vh - #{$navbar-height});
+    height: 100vh;
     align-items: center;
     flex-wrap: wrap;
+    position: relative;
+    bottom: $navbar-height;
     img {
         width: 35%;
     }
 }
 
 .content {
-    // border-left: 1px solid;
-    // padding: 10px 0 10px 40px;
     max-width: 50%;
-    // border-color: $blue-dark;
     h1 {
         margin-bottom: 35px;
         font-size: 2.75rem;
@@ -27,7 +26,6 @@
     font-size: 22px;
     margin-top: 50px;
 }
-
 
 @media screen and (max-width: 1100px) {
     .flex-container {
@@ -69,9 +67,6 @@
 }
 
 @media screen and (max-width: 500px) {
-    .flex-container {
-        padding-top: 20px;
-    }
     .content {
         padding: 0px 0px 20px 0px;
         border: none;
