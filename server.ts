@@ -12,7 +12,7 @@ const domino = require('domino');
 const fs = require('fs');
 const path = require('path');
 
-const DIST_FOLDER = join(process.cwd(), 'dist/lab-website/browser');
+const DIST_FOLDER = join(process.cwd(), 'dist/blockbrainers/browser');
 const template = fs.readFileSync(path.join(DIST_FOLDER, 'index.html')).toString();
 const win = domino.createWindow(template.toString());
 global.window = win;
@@ -34,7 +34,7 @@ enableProdMode();
 // The Express app is exported so that it can be used by serverless Functions.
 export function app(): express.Express {
   const server = express();
-  // const distFolder = join(process.cwd(), 'dist/lab-website/browser');
+  // const distFolder = join(process.cwd(), 'dist/blockbrainers/browser');
   const indexHtml = existsSync(join(DIST_FOLDER, 'index.original.html')) ? 'index.original.html' : 'index';
 
   // Our Universal express-engine (found @ https://github.com/angular/universal/tree/master/modules/express-engine)
